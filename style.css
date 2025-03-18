@@ -1,0 +1,96 @@
+/* style.css */
+
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* App Container */
+  #app {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title */
+  h1 {
+    text-align: center;
+    color: #007BFF; /* A nice blue color */
+  }
+  
+  /* Input Field */
+  #taskInput {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  
+  /* Add Task Button */
+  #addTaskBtn {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #addTaskBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Task List */
+  #taskList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  #taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f1f1f1;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  /* Completed Task Style */
+.done {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  
+  /* Task Text */
+  #taskList li span {
+    flex-grow: 1;
+    padding: 0 10px;
+  }
+  
+  /* Delete Button */
+  .deleteBtn {
+    padding: 5px 10px;
+    background: #dc3545; /* Red color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .deleteBtn:hover {
+    background-color: #a71d2a;
+  }
+  
